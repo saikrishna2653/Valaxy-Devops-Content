@@ -15,6 +15,8 @@ We will be using open java for our demo, Get latest version from http://openjdk.
 yum install java-1.8*
 #yum -y install java-1.8.0-openjdk
 ```
+## Swiching version in linux
+sudo update-alternatives --config java
 
 ### Confirm Java Version
 Lets install java and set the java home
