@@ -63,3 +63,15 @@ goto tomcat home directory and Add below users to conf/tomcat-user.xml file
 ```
 Restart serivce and try to login to tomcat application from the browser. This time it should be Successful
 
+#### Build Failure User provieded is Invalid then follow this :
+
+0
+
+comment tag Valve in context.xml files
+
+<Valve className="org.apache.catalina.valves.RemoteAddrValve"
+allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
+there are multiple context.xml files in tomcat directory, update following context.xml files and restart tomcat service-
+
+/apache-tomcat-X.X.XX/webapps/manager/META-INF/context.xml
+/apache-tomcat-X.X.XX/webapps/host-manager/META-INF/context.xml
