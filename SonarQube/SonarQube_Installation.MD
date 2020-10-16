@@ -56,6 +56,10 @@ SELECT User FROM mysql.user;
 FLUSH PRIVILEGES;
 QUIT
 ```
+
+## If mysql Created on docker container use below command
+ALTER USER 'username'@'ip_address' IDENTIFIED WITH mysql_native_password BY 'password'
+
 So for you have configured required database information on RDS. Let’s Jump back to your EC2 instance and enable SonarQube properties file to connect his Database.
 
 ### ON EC2 Instance
