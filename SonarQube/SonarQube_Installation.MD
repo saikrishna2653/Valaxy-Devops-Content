@@ -84,6 +84,9 @@ services:
 volumes:
   my-db:
 
+## website
+https://medium.com/@chrischuck35/how-to-create-a-mysql-instance-with-docker-compose-1598f3cc1bee
+
 ## If mysql Created on docker container use below command
 ALTER USER 'username'@'ip_address' IDENTIFIED WITH mysql_native_password BY 'password'
 
