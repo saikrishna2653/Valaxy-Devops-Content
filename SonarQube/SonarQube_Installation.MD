@@ -80,7 +80,7 @@ services:
       # Where our data will be persisted
     volumes:
       - my-db:/var/lib/mysql
-# Names our volume
+    # Names our volume
 volumes:
   my-db:
 
