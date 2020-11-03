@@ -49,6 +49,7 @@ wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenki
 rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 yum -y install jenkins
 ```
+Ubuntu: https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-20-04/
 
 ### Start Jenkins
 ```sh
