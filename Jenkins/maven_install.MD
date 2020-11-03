@@ -33,6 +33,8 @@ Check maven version
 ```
 So far you have completed installation of maven software to support maven plugin on jenkins console. Let's jump onto jenkins to complete remining steps. 
 
+Ubuntu: https://linuxize.com/post/how-to-install-apache-maven-on-ubuntu-20-04/
+
 #### Setup maven on jenkins console
 - Install maven plugin without restart  
   - `Manage Jenkins` > `Jenkins Plugins` > `available` > `Maven Invoker`
